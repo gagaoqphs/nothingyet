@@ -551,7 +551,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via OxyXmusic 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via [🇮🇳]『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』".format(
         message.from_user.mention()
         ),
     )
@@ -572,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "OxyXmusic"
+        user.first_name =  "『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』"
     usar = user
     wew = usar.id
     try:
@@ -665,9 +665,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯OxyXmusic✯= #️⃣ Queued at position {position}")
+        await res.edit_text(f"✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯= #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯OxyXmusic✯=▶️ Playing.....")
+        await res.edit_text("✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "OxyXmusic"
+        user.first_name =  "『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』"
     usar = user
     wew = usar.id
     try:
@@ -776,7 +776,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="σffι¢ιαℓ gяσυρ",
-                   url='https://t.me/X_F0RCE_TEAM')
+                   url='https://t.me/joinchat/MK4RoLY0icRjZ')
              ],
              [       
                InlineKeyboardButton(
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯OxyXmusic✯=#️⃣ Queued at position {position}",
+            caption=f"✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯OxyXmusic✯=▶️ Playing.....")
+        await res.edit_text("✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
