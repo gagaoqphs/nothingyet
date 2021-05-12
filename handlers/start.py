@@ -32,7 +32,7 @@ async def start(_, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 cσммαη∂s 📜", url="https://telegra.ph/%F0%9D%95%90%F0%9D%96%94%F0%9D%96%9A%F0%9D%96%97---%F0%9D%95%AF%F0%9D%96%86%F0%9D%96%89%F0%9D%96%89%F0%9D%95%AA-%EA%97%84-04-26")
+                        "📜 cσммαη∂s 📜", url="https://telegra.ph/%E1%8F%AB%E1%8E%AE-%F0%9D%90%92%F0%9D%90%8E%F0%9D%90%94%F0%9D%90%8B%F0%9D%90%8C%F0%9D%90%80%F0%9D%90%93%F0%9D%90%84--%F0%9D%90%8C%F0%9D%90%94%F0%9D%90%92%F0%9D%90%88%F0%9D%90%82-05-12")
                   ],[
                     InlineKeyboardButton(
                         "❤️ αвσυт 『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』 ❤️", url="https://t.me/unknownn_soulmate"
