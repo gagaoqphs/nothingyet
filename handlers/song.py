@@ -78,7 +78,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**➼ υρℓσα∂є∂ ву [🔥『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』🔥](https://t.me/unknown_soulmate)**'
+        rep = '**(っ◔◡◔)っ ♥ 𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝘽𝙮 ♥ @KazutoSuperbot [♕](https://i.imgur.com/5xwhkKA.jpg)**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
