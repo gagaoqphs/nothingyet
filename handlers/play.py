@@ -414,10 +414,10 @@ async def m_cb(b, cb):
         else:
             await cb.answer('Chat is not connected!', show_alert=True)
 
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("ytt") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing**")
+    lel = await message.reply("🔄 **Processing... Make Sure @AsunaMusic is in the chat**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -443,7 +443,7 @@ async def play(_, message: Message):
 
                           try:
                               await USER.join_chat(invitelink)
-                              await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
+                              await USER.send_message(message.chat.id,"I am here For my Darling Kazuto to play Music in VC")
                               await lel.edit(
                                   "<b>helper userbot joined your chat</b>",
                               )
@@ -454,7 +454,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Music_op_bot to your Group and try again</b>",
+                                  "\n\nOr manually add @AsunaMusic to your Group and try again</b>",
                               )
                               pass
     try:
@@ -551,7 +551,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via [🇮🇳]『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』".format(
+        caption="▶️ **Playing** here the song requested by {} via『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』".format(
         message.from_user.mention()
         ),
     )
@@ -560,7 +560,7 @@ async def play(_, message: Message):
 
 
 @Client.on_message(
-    filters.command("dplay")
+    filters.command("nigga")
     & filters.group
     & ~ filters.edited
 )
@@ -572,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』"
+        user.first_name =  "『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』"
     usar = user
     wew = usar.id
     try:
@@ -602,7 +602,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Music_op_bot to your Group and try again</b>",
+                                  "\n\nOr manually add @AsunaMusic to your Group and try again</b>",
                               )
                               pass
     try:
@@ -665,9 +665,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯= #️⃣ Queued at position {position}")
+        await res.edit_text(f"✯『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』✯= #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯=▶️ Playing.....")
+        await res.edit_text("✯『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -690,7 +690,7 @@ async def deezer(client: Client, message_: Message):
 
 
 @Client.on_message(
-    filters.command("splay")
+    filters.command("niggi")
     & filters.group
     & ~ filters.edited
 )
@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』"
+        user.first_name =  "『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』"
     usar = user
     wew = usar.id
     try:
@@ -732,7 +732,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Music_op_bot to your Group and try again</b>",
+                                  "\n\nOr manually add @AsunaMusic to your Group and try again</b>",
                               )
                               pass
     try:
@@ -775,8 +775,8 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="σffι¢ιαℓ gяσυρ",
-                   url='https://t.me/joinchat/MK4RoLY0icRjZ')
+                   text="Support Group",
+                   url='https://t.me/joinchat/kazutosupport')
              ],
              [       
                InlineKeyboardButton(
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯=#️⃣ Queued at position {position}",
+            caption=f"✯『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯『 𝐒𝐎𝐔𝐋𝐌𝐀𝐓𝐄 』✯=▶️ Playing.....")
+        await res.edit_text("✯『 𝕂𝕒𝕫𝕦𝕥𝕠-𝕏-𝔸𝕤𝕦𝕟𝕒 』✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
